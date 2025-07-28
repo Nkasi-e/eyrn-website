@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +23,30 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* image-slider.css */
+.image-slider .swiper-slide {
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+  transform: scale(0.9);
 }
+
+.image-slider .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.05); /* Slight magnification */
+}
+
+.slider-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: zoom-in;
+}
+
