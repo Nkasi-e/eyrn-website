@@ -17,12 +17,12 @@ export default function Home() {
         <Header />
         <div className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <main className="flex flex-col items-center justify-center gap-8 pt-24 sm:pt-32">
-            <ImageSlider images={images} alt="Product images" />
-            <h1 className="text-4xl font-bold">Welcome to My App</h1>
+            <h1 className="text-4xl font-bold">Welcome to EYRN</h1>
             <p className="text-lg text-gray-600 text-center max-w-2xl">
               This is a simple Next.js application with a responsive header and an
               image slider that supports zoom and smooth transitions.
             </p>
+            <ImageSlider images={images} alt="Product images" />
           </main>
         </div>
         <Footer />
